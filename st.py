@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-pip install --upgrade --quiet  langchain langchain-community langchain-core langchainhub langchain-chroma langchain-experimental
+# pip install --upgrade --quiet  langchain langchain-community langchain-core langchainhub langchain-chroma langchain-experimental
 
 pip install pandas
 pip install chromadb==0.4.22
