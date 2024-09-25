@@ -10,9 +10,11 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 # pip install --upgrade --quiet  langchain langchain-community langchain-core langchainhub langchain-chroma langchain-experimental
 
+'''
 pip install pandas
 pip install chromadb==0.4.22
 pip install sentence-transformers
+'''
 
 from langchain_experimental.agents import create_pandas_dataframe_agent
 import pandas as pd
@@ -21,7 +23,7 @@ from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
 
 api_key = 'AIzaSyCPKgdSzX6H7E2DZUOPFXgB3tvGSSkMylg'
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", google_api_key=api_key, temperature=0.2)
-
+'''
 pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -30,6 +32,7 @@ pip install -q langchain-google-genai
 pip install --upgrade -q langchain-google-genai
 pip show langchain-google-genai
 pip install -q google-generativeai
+'''
 
 from langchain_experimental.agents import create_pandas_dataframe_agent
 import pandas as pd
